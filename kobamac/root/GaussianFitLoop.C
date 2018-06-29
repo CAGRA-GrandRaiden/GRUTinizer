@@ -1,5 +1,5 @@
 #include "TROOT.h"
-#include "RQ_OBJECT.h"
+//#include "RQ_OBJECT.h"
 #include "TGClient.h"
 #include "TGString.h"
 #include "TGPicture.h"
@@ -13,7 +13,7 @@
 #include "TF1.h"
 
 class TGMsgBoxMod {
-  RQ_OBJECT("TGMsgBoxMod")
+  //RQ_OBJECT("TGMsgBoxMod")
   public:
   TGMsgBoxMod(const TGWindow *p, const TGWindow *main,
 	      const char *title, const char *msg,
